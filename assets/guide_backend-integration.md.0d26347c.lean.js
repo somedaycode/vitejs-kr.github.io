@@ -1,0 +1,1 @@
+import{o as n,c as s,d as a}from"./app.5ce87161.js";const t='{"title":"Backend Integration","description":"","frontmatter":{},"relativePath":"guide/backend-integration.md","lastUpdated":1620885976014}',p={},o=a('',4);p.render=function(a,t,p,e,c,l){return n(),s("div",null,[o])};export default p;export{t as __pageData};
