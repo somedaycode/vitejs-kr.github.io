@@ -1,1 +1,0 @@
-import{o as s,c as n,d as a}from"./app.e7552bbd.js";const t='{"title":"백엔드 프레임워크와 함께 사용하기","description":"","frontmatter":{"title":"백엔드 프레임워크와 함께 사용하기"},"headers":[],"relativePath":"guide/backend-integration.md","lastUpdated":1630932615101}',p={},o=a('',3);p.render=function(a,t,p,e,c,l){return s(),n("div",null,[o])};export default p;export{t as __pageData};
