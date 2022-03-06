@@ -67,7 +67,7 @@ import{_ as n,c as s,o as a,a as p}from"./app.18df0fee.js";const v='{"title":"Ja
    */</span>
   <span class="token function">ssrLoadModule</span><span class="token punctuation">(</span>
     url<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
-    options<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span> isolated<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span> <span class="token punctuation">}</span>
+    options<span class="token operator">?</span><span class="token operator">:</span> <span class="token punctuation">{</span> fixStacktrace<span class="token operator">?</span><span class="token operator">:</span> <span class="token builtin">boolean</span> <span class="token punctuation">}</span>
   <span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">Promise</span><span class="token operator">&lt;</span>Record<span class="token operator">&lt;</span><span class="token builtin">string</span><span class="token punctuation">,</span> <span class="token builtin">any</span><span class="token operator">&gt;&gt;</span>
   <span class="token comment">/**
    * SSR \uC5D0\uB7EC stacktrace \uC218\uC815\uD558\uAE30
