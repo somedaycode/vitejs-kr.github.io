@@ -60,8 +60,10 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token keyword">const</span> <span class="token function-variable function">partialConfigPlugin</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
   <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">&#39;return-partial&#39;</span><span class="token punctuation">,</span>
   <span class="token function-variable function">config</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span>
-    <span class="token literal-property property">alias</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-      <span class="token literal-property property">foo</span><span class="token operator">:</span> <span class="token string">&#39;bar&#39;</span>
+    <span class="token literal-property property">resolve</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">alias</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">foo</span><span class="token operator">:</span> <span class="token string">&#39;bar&#39;</span>
+      <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span><span class="token punctuation">)</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
